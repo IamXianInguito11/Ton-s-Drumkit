@@ -1,7 +1,7 @@
 html {
   font-size: 10px;
-  background: url('./background.jpg') bottom center;
-  background-size: cover;
+  background: url('./background\ 1.png') center;
+  background-size: contain ;
 }
 
 body,html {
@@ -19,7 +19,7 @@ body,html {
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid rgb(255, 238, 0);
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -28,14 +28,14 @@ body,html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  background: rgba(177, 16, 139, 0.4);
+  text-shadow: 0 0 .5rem rgb(250, 7, 230);
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #ff01c0;
+  box-shadow: 0 0 1rem #ffc800;
 }
 
 kbd {
